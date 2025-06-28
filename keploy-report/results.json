@@ -1,0 +1,10 @@
+﻿[
+  {
+    "name": "GET /hello",
+    "status": "PASSED"
+  },
+  {
+    "name": "POST /greet",
+    "status": "PASSED"
+  }
+]

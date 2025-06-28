@@ -1,0 +1,28 @@
+﻿openapi: 3.0.0
+info:
+  title: Keploy Test API
+  version: 1.0.0
+servers:
+  - url: http://localhost:3000
+paths:
+  /hello:
+    get:
+      summary: Returns Hello
+      responses:
+        "200":
+          description: Success
+  /greet:
+    post:
+      summary: Greet a user
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              properties:
+                name:
+                  type: string
+      responses:
+        "200":
+          description: Greeting message
