@@ -5,7 +5,7 @@ This project demonstrates AI-powered API testing using [Keploy](https://keploy.i
 📸 Keploy Test Report (Screenshot)
 📷 Screenshot showing test results
 📍 Below is a screenshot of the test report from keploy-report/results.json:
-![Test Report Screenshot](./screenshot1.png)
+![Test Report Screenshot](./keploy-report/screenshot1.png)
 
 ---
 
