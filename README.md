@@ -1,6 +1,11 @@
-# 🧪 Keploy API Testing – Task 1 Submission
+# 🧪 Keploy API Testing 
 
 This project demonstrates AI-powered API testing using [Keploy](https://keploy.io) on a simple Node.js Express API with OpenAPI integration and GitHub Actions CI/CD.
+
+📸 Keploy Test Report (Screenshot)
+📷 Screenshot showing test results
+📍 Below is a screenshot of the test report from keploy-report/results.json:
+![Test Report Screenshot](./test-screenshot.png)
 
 ---
 
@@ -37,13 +42,6 @@ curl -X POST http://localhost:3000/greet -H "Content-Type: application/json" -d 
 Due to limitations on Windows OS, keploy record and test were not supported natively.
 Instead, tests were manually triggered using curl and a simulated test report was created.
 
-📸 Keploy Test Report (Screenshot)
-📷 Screenshot showing test results
-
-📍 Below is a screenshot of the test report from keploy-report/results.json:
-
-
-📝 If image is not visible, please ensure test-screenshot.png is present in the root folder.
 
 ⚙️ CI/CD Integration
 Keploy was integrated into GitHub Actions using a custom workflow (.github/workflows/ci.yml).
